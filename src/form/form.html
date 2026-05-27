@@ -8,8 +8,12 @@
       href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/83f4286022.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./form.js"></script>
     <title>Blog</title>
-    <script src="./form.js" type="module"></script>
   </head>
   <body>
     <div class="container">
@@ -26,6 +30,9 @@
               >
             </li>
           </ul>
+          <div class="header-menu-icon">
+            <i class="fas fa-bars"></i>
+          </div>
         </div>
       </header>
       <div class="content">
@@ -53,8 +60,8 @@
           </div>
           <ul class="text-error" id="errors"></ul>
           <div class="form-btn-container">
-            <button class="btn btn-secondary">Annuler</button>
-            <button class="btn btn-primary">Sauvegarder</button>
+            <button type="button" class="btn btn-secondary">Annuler</button>
+            <button type="submit" class="btn btn-primary">Sauvegarder</button>
           </div>
         </form>
       </div>

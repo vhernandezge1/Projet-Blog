@@ -1,8 +1,8 @@
-@use "base";
-@use "variables";
-@use "reset";
-@use "classes";
-@use "utils";
+@use "base" as *;
+@use "variables" as *;
+@use "reset" as *;
+@use "classes" as *;
+@use "utils" as *;
 @use "media-queries" as *;
 
 .container {
